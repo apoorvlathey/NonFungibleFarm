@@ -1,0 +1,31 @@
+{
+  "name": "nonfungiblefarm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.2.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-environment": "^0.1.6",
+    "@openzeppelin/test-helpers": "^0.5.9",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0"
+  },
+  "scripts": {
+    "test": "npx mocha --exit --recursive --timeout 200000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodinMaster/NonFungibleFarm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodinMaster/NonFungibleFarm/issues"
+  },
+  "homepage": "https://github.com/CodinMaster/NonFungibleFarm#readme"
+}
