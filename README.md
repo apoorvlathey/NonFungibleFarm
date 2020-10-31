@@ -67,3 +67,15 @@ Allow user to withdraw `_amount` of LP tokens. Reverts if `_amount` exceeds depo
 function exit() external;
 ```
 Allow user to claim random NFTs and withdraw all LP tokens from contract.
+
+---
+## Local Project Set Up:
+1. Install Required packages.
+```npm i```
+
+2. Compile contracts
+```truffle compile```
+
+3. Run tests. Run these commands parallelly, one after another:
+```ganache-cli```
+```npm run tests```
